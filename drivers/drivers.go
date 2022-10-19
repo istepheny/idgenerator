@@ -3,7 +3,7 @@ package drivers
 import (
 	"sync"
 
-	"git.ucloudadmin.com/monkey/idgenerator/contract"
+	"github.com/istepheny/idgenerator/contract"
 )
 
 type IDGeneratorFactory func() contract.IDGenerator

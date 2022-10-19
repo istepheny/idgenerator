@@ -1,9 +1,9 @@
 package idgenerator
 
 import (
-	"git.ucloudadmin.com/monkey/idgenerator/contract"
-	"git.ucloudadmin.com/monkey/idgenerator/drivers"
-	"git.ucloudadmin.com/monkey/idgenerator/drivers/int53IDGenerator"
+	"github.com/istepheny/idgenerator/contract"
+	"github.com/istepheny/idgenerator/drivers"
+	"github.com/istepheny/idgenerator/drivers/int53IDGenerator"
 )
 
 func Driver(name string) contract.IDGenerator {

@@ -3,7 +3,7 @@
 ## 安装
 
 ```shell
-go get git.ucloudadmin.com/monkey/idgenerator@latest
+go get github.com/istepheny/idgenerator@latest
 ```
 
 ## 生成 int53 ID
@@ -13,7 +13,7 @@ package main
 
 import (
 	"fmt"
-	"git.ucloudadmin.com/monkey/idgenerator"
+	"github.com/istepheny/idgenerator"
 )
 
 func main() {
@@ -30,8 +30,8 @@ package main
 
 import (
 	"fmt"
-	"git.ucloudadmin.com/monkey/idgenerator"
-	"git.ucloudadmin.com/monkey/idgenerator/drivers/int64IDGenerator"
+	"github.com/istepheny/idgenerator"
+	"github.com/istepheny/idgenerator/drivers/int64IDGenerator"
 )
 
 func main() {
@@ -47,8 +47,8 @@ func main() {
 package fakeIDGenerator
 
 import (
-	"git.ucloudadmin.com/monkey/idgenerator/contract"
-	"git.ucloudadmin.com/monkey/idgenerator/drivers"
+	"github.com/istepheny/idgenerator/contract"
+	"github.com/istepheny/idgenerator/drivers"
 )
 
 const DriverName = "FakeIDGenerator"
@@ -76,8 +76,8 @@ package main
 
 import (
 	"fmt"
-	"git.ucloudadmin.com/monkey/idgenerator"
-	"git.ucloudadmin.com/monkey/idgenerator/drivers/fakeIDGenerator"
+	"github.com/istepheny/idgenerator"
+	"github.com/istepheny/idgenerator/drivers/fakeIDGenerator"
 )
 
 func main() {

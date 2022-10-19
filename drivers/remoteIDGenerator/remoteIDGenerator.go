@@ -1,8 +1,8 @@
 package remoteIDGenerator
 
 import (
-	"git.ucloudadmin.com/monkey/idgenerator/contract"
-	"git.ucloudadmin.com/monkey/idgenerator/drivers"
+	"github.com/istepheny/idgenerator/contract"
+	"github.com/istepheny/idgenerator/drivers"
 )
 
 const DriverName = "RemoteIDGenerator"

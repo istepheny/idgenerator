@@ -3,10 +3,10 @@ package int64IDGenerator
 import (
 	"sync"
 
-	"git.ucloudadmin.com/monkey/idgenerator/contract"
-	"git.ucloudadmin.com/monkey/idgenerator/drivers"
-	"git.ucloudadmin.com/monkey/idgenerator/snowflake"
 	bwmarrinSnowflake "github.com/bwmarrin/snowflake"
+	"github.com/istepheny/idgenerator/contract"
+	"github.com/istepheny/idgenerator/drivers"
+	"github.com/istepheny/idgenerator/snowflake"
 )
 
 const DriverName = "Int64IDGenerator"

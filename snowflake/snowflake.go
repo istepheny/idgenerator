@@ -3,8 +3,8 @@ package snowflake
 import (
 	"fmt"
 
-	"git.ucloudadmin.com/monkey/idgenerator/nodeid"
 	"github.com/bwmarrin/snowflake"
+	"github.com/istepheny/idgenerator/nodeid"
 )
 
 const epoch = 1640966400000 // 2022-01-01 00:00:00

@@ -1,4 +1,4 @@
-module git.ucloudadmin.com/monkey/idgenerator
+module github.com/istepheny/idgenerator
 
 go 1.17
 
